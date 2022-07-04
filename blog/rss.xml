@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>DeCom Blog</title>
+        <link>https://dcom.market/blog</link>
+        <description>DeCom Blog</description>
+        <lastBuildDate>Mon, 04 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Blog init]]></title>
+            <link>https://dcom.market/blog/blog-init</link>
+            <guid>blog-init</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <category>background</category>
+            <category>decom</category>
+            <category>hackathon</category>
+        </item>
+    </channel>
+</rss>
