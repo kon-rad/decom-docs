@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DeCom',
-  tagline: 'crypto native decentralized commerce protocol',
-  url: 'https://docs.decom.market',
+  title: 'dcom',
+  tagline: 'crypto native digital goods exchange protocol',
+  url: 'https://dcom.market',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'kon-rad', // Usually your GitHub org/user name.
   projectName: 'decom-docs', // Usually your repo name.
-
+  deploymentBranch: "gh-pages",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Decom',
+        title: 'dcom',
         logo: {
-          alt: 'Decom Logo',
+          alt: 'dcom Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeCom, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} dcom, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
