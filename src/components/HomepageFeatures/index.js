@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Frictionless',
-    Svg: require('@site/static/img/illustrations/1.png').default,
+    img: require('@site/static/img/illustrations/1.png').default,
     description: (
       <>
         Create your on-chain shop and upload digital goods to sell in minutes, without asking for permission.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Decentralized',
-    Svg: require('@site/static/img/illustrations/3.png').default,
+    img: require('@site/static/img/illustrations/3.png').default,
     description: (
       <>
         All of the store, menu item, transaction and file data are stored on chain. The digital goods are only accessible by the owner.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Interoperable',
-    Svg: require('@site/static/img/illustrations/4.png').default,
+    img: require('@site/static/img/illustrations/4.png').default,
     description: (
       <>
         Your digital good can be incorporated into any game or software platform.
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureImg} role="img" src={img} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
