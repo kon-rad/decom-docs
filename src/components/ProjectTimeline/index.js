@@ -30,7 +30,6 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">September 2022</h3>
@@ -40,7 +39,6 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-          date="2011 - present"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">October 2022</h3>
@@ -50,7 +48,6 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">November 2022</h3>
@@ -61,7 +58,6 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-          date="2011 - present"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">December 2022</h3>
@@ -72,7 +68,6 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">2023</h3>
