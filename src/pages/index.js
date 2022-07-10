@@ -4,6 +4,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import ProjectTimeline from '@site/src/components/ProjectTimeline';
+
 
 import styles from './index.module.css';
 
@@ -15,7 +17,7 @@ function HomepageHeader() {
   // const [imgIndex, setImgIndex] = useState(0);
   const [slideInterval, setSlideInterval] = useState(null);
   const heroImages = ['eth-purple', 'eth-sunset', 'eth-network', 'eth-cubes'];
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   useEffect(() => {
     const currSlide = initBgSlide();
     setSlideInterval(currSlide);
@@ -29,8 +31,8 @@ function HomepageHeader() {
       // setImgIndex(newImgIndex);
       imgIndex = newImgIndex;
       console.log('interval ', imgIndex, newImgIndex);
-      setTimeout(() => {  
-        setIsActive(true); 
+      setTimeout(() => {
+        setIsActive(true);
         console.log("timeout isActive: ", isActive);
       }, 500);
     }, 2000);
@@ -41,13 +43,13 @@ function HomepageHeader() {
 
   return (
     <header className={
-        clsx(
-          'hero hero--primary',
-          styles.heroBanner,
-          styles[heroImages[imgIndex]],
-          styles[isActive ? 'hero-active' : '']
-        )
-      }>
+      clsx(
+        'hero hero--primary',
+        styles.heroBanner,
+        styles[heroImages[imgIndex]],
+        styles[isActive ? 'hero-active' : '']
+      )
+    }>
       <div className={clsx('container', styles['hero-inner'])}>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -64,7 +66,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
@@ -72,6 +74,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <ProjectTimeline />
       </main>
     </Layout>
   );
