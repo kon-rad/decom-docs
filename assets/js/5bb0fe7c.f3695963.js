@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdecom_docs=self.webpackChunkdecom_docs||[]).push([[775],{3321:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/background","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
