@@ -9,7 +9,7 @@ const config = {
   title: 'dcom',
   tagline: 'crypto native digital goods exchange protocol',
   url: 'https://docs.dcom.market',
-  baseUrl: '/decom-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
