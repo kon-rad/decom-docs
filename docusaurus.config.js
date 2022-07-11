@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'dcom',
   tagline: 'crypto native digital goods exchange protocol',
-  url: 'https://dcom.market',
-  baseUrl: '/',
+  url: 'https://docs.dcom.market',
+  baseUrl: '/decom-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
