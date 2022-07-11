@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdecom_docs=self.webpackChunkdecom_docs||[]).push([[34],{180:a=>{a.exports=JSON.parse('{"label":"hackathon","permalink":"/decom-docs/blog/tags/hackathon","allTagsPath":"/decom-docs/blog/tags","count":1}')}}]);

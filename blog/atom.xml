@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dcom.market/blog</id>
+    <id>https://docs.dcom.market/decom-docs/blog</id>
     <title>dcom Blog</title>
     <updated>2022-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dcom.market/blog"/>
+    <link rel="alternate" href="https://docs.dcom.market/decom-docs/blog"/>
     <subtitle>dcom Blog</subtitle>
-    <icon>https://dcom.market/img/favicon.ico</icon>
+    <icon>https://docs.dcom.market/decom-docs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Blog init]]></title>
         <id>blog-init</id>
-        <link href="https://dcom.market/blog/blog-init"/>
+        <link href="https://docs.dcom.market/decom-docs/blog/blog-init"/>
         <updated>2022-07-04T00:00:00.000Z</updated>
         <author>
             <name>Konrad Gnat</name>

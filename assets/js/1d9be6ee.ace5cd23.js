@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdecom_docs=self.webpackChunkdecom_docs||[]).push([[311],{324:e=>{e.exports=JSON.parse('{"label":"decom","permalink":"/blog/tags/decom","allTagsPath":"/blog/tags","count":1}')}}]);
