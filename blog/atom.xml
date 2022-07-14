@@ -2,16 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.dcom.market/blog</id>
     <title>dcom Blog</title>
-    <updated>2022-07-04T00:00:00.000Z</updated>
+    <updated>2022-07-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.dcom.market/blog"/>
     <subtitle>dcom Blog</subtitle>
     <icon>https://docs.dcom.market/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Blog init]]></title>
-        <id>blog-init</id>
-        <link href="https://docs.dcom.market/blog/blog-init"/>
-        <updated>2022-07-04T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[Hackhouse Hackathon]]></title>
+        <id>hackhouse-hackathon</id>
+        <link href="https://docs.dcom.market/blog/hackhouse-hackathon"/>
+        <updated>2022-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On July 11th, 2022, Terrence and I presented dcom.market to a panel of judges and a room full of spectators in the impeccably designed Launch House space in Chelsea, New York City.]]></summary>
+        <content type="html"><![CDATA[<p>On July 11th, 2022, Terrence and I presented dcom.market to a panel of judges and a room full of spectators in the impeccably designed Launch House space in Chelsea, New York City.</p><p><img loading="lazy" alt="HackHouse Hackathon Group Photo" src="/assets/images/hackhouse-group-42a95084d2e5a4f1b5209a9fbc3adac8.jpeg" width="1024" height="768" class="img_ev3q"></p><p>This was the culmination of ten days of work of the hackathon. </p><p>See the slides here: <a href="https://app.pitch.com/app/presentation/6b1b6511-49db-47ca-aa2f-aa8ad603898e/6c24fad8-4076-4d8c-9cef-cfaec1462c29" target="_blank" rel="noopener noreferrer">https://app.pitch.com/app/presentation/6b1b6511-49db-47ca-aa2f-aa8ad603898e/6c24fad8-4076-4d8c-9cef-cfaec1462c29</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-we-built">What We Built<a class="hash-link" href="#what-we-built" title="Direct link to heading">​</a></h2><p>While dcom.market had already the structure built out before, I added primarily the decentrliazed access control by NFT ownership, a new UI and rearchitecture of the smart contracts. Now using the Lit Protocol, we are able to manage control to digital assets in a decentralized way. We believe this is the next step in the evolution of digital commerce. </p><p><img loading="lazy" alt="HackHouse Hackathon Group Photo" src="/assets/images/konrad-dcom-demoday-251ce7394d53957578144d6c0b61fd5d.jpeg" width="1252" height="1670" class="img_ev3q"></p><p><img loading="lazy" alt="HackHouse Hackathon Group Photo" src="/assets/images/demo-terrence-2-67175d00ef2936158919e87769c1cb39.jpeg" width="1024" height="769" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps">Next Steps<a class="hash-link" href="#next-steps" title="Direct link to heading">​</a></h2><p>The next steps are to internally test and audit the MVP. Next to delve deeper into the VRChat community and other digitally native game, art, code and crypto communities that would most benefit from our tool. Once we gain some first interest and early adopters, we will publish our launch on Product Hunt, twitter, and other media platforms. During this time we will also apply for grants from various crypto ecosystems in order to support ourselves which would allo us to dedicate more time to development.</p>]]></content>
         <author>
             <name>Konrad Gnat</name>
             <uri>https://github.com/kon-rad</uri>
